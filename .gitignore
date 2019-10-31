@@ -1,0 +1,26 @@
+# build artifacts
+build/
+debian/changelog
+debian/files
+debian/kodi-metadataprovider-omniyon-dbg.debhelper.log
+debian/kodi-metadataprovider-omniyon-dbg.substvars
+debian/kodi-metadataprovider-omniyon-dbg/
+debian/kodi-metadataprovider-omniyon.debhelper.log
+debian/kodi-metadataprovider-omniyon.postinst.debhelper
+debian/kodi-metadataprovider-omniyon.postrm.debhelper
+debian/kodi-metadataprovider-omniyon.substvars
+debian/kodi-metadataprovider-omniyon/
+debian/tmp/
+obj-x86_64-linux-gnu/
+metadataprovider.omniyon/addon.xml
+
+# clion
+.idea/
+
+# Eclipse/CDT
+.cproject
+.project
+.settings/
+
+# vscode
+.vscode/

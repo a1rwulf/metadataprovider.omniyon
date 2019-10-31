@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="metadataprovider.omniyon"
+  version="1.0.0"
+  name="Omniyon Metadataprovider"
+  provider-name="YachtCloud">
+ <requires>@ADDON_DEPENDS@</requires>
+  <extension
+    point="kodi.metadataprovider"
+    library_@PLATFORM@="@LIBRARY_FILENAME@"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en_GB">Omniyon Metadataprovider.</summary>
+    <description lang="en_GB">Retrieves metadata about music from the omniyon backend.</description>
+    <disclaimer lang="en_GB">Copyright (c) by YachtCloud</disclaimer>
+    <platform>@PLATFORM@</platform>
+  </extension>
+</addon>

@@ -1,0 +1,21 @@
+Source: kodi-metadataprovider-omniyon
+Priority: extra
+Maintainer: Wolfgang Haupt <haupt.wolfgang@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, kodi-pvr-dev,
+               libkodiplatform-dev (>= 16.0.0), kodi-addon-dev, zlib1g-dev
+Standards-Version: 3.9.4
+Section: libs
+
+Package: kodi-metadataprovider-omniyon
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: metadtaprovider omniyon for Kodi
+ metadtaprovider omniyon for Kodi
+
+Package: kodi-metadataprovider-omniyon-dbg
+Section: debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: debug symbols for metadtaprovider omniyon for Kodi
+ debug symbols for metadataprovider omniyon for Kodi
